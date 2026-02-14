@@ -13,7 +13,7 @@
   gtag('config', 'G-WTTFKS8DX3');
 </script>
 
-
+<!-- グーグル広告のコンバージョン設定 -->
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16736075678"></script>
 <script>
@@ -23,6 +23,7 @@
 
   gtag('config', 'AW-16736075678');
 </script>
+<!-- グーグルタグマネージャー -->
 
     <!-- Event snippet for 購入 conversion page -->
 <script>
@@ -163,13 +164,13 @@
                     <p>詳しいカリキュラム内容や受講生の実績など、プログラミング学習の第一歩に役立つ情報をお届けします。</p>
                     <ul><li>✓ 詳細カリキュラム資料</li><li>✓ 卒業生の転職実績レポート</li><li>✓ 未経験者向け学習ガイド</li></ul>
                 </div>
-                <form class="contact-form" id="contact-form">
-                    <div class="form-group"><label>お名前 *</label><input type="text" placeholder="山田 太郎" required></div>
-                    <div class="form-group"><label>メールアドレス *</label><input type="email" placeholder="example@email.com" required></div>
-                    <div class="form-group"><label>電話番号</label><input type="tel" placeholder="090-1234-5678"></div>
-                    <button type="submit" class="btn btn-primary btn-lg btn-full">無料で資料請求する ✉</button>
-                    <p class="form-note">※ 入力情報は資料送付のみに使用いたします</p>
-                </form>
+<form class="contact-form" id="contact-form" action="https://hiengineer.jp/course/" method="GET">
+    <div class="form-group"><label>お名前 *</label><input type="text" name="name" placeholder="山田 太郎" required></div>
+    <div class="form-group"><label>メールアドレス *</label><input type="email" name="email" placeholder="example@email.com" required></div>
+    <div class="form-group"><label>電話番号</label><input type="tel" name="tel" placeholder="090-1234-5678"></div>
+    <button type="submit" class="btn btn-primary btn-lg btn-full">無料で資料請求する ✉</button>
+    <p class="form-note">※ 入力情報は資料送付のみに使用いたします</p>
+</form>
             </div>
         </div>
     </section>
@@ -184,6 +185,7 @@
     </footer>
 </body>
 </html>
+
 
 
 
